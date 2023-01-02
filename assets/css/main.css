@@ -8,7 +8,6 @@
 */
 
 :root {
-	--teal: #82BDC9;
 	--white: #f4f4f8;
 	--purple: #7f3065;
 	--lightpurple: #e5d4de;
@@ -124,7 +123,7 @@ input, select, textarea {
 	}
 
 		a:hover {
-			color: var(--teal) !important;
+			color: var(--purple) !important;
 			text-decoration: underline;
 			cursor: pointer;
 		}
@@ -1737,7 +1736,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: var(--teal);
+			background-color: var(--purple);
 			color: #fff !important;
 		}
 
@@ -1746,7 +1745,7 @@ input, select, textarea {
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background-color: var(--teal);
+			background-color: var(--purple);
 			top: 1px;
 		}
 
