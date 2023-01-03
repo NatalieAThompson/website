@@ -386,6 +386,8 @@ input, select, textarea {
 
 		.row > .col-4 {
 			width: 33.33333%;
+			display: flex;
+			align-items: center;
 		}
 
 		.row > .off-4 {
