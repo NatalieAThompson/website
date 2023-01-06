@@ -240,6 +240,10 @@ input, select, textarea {
 			font-size: 1.25em;
 		}
 
+	#nav .hamburger {
+		display: none;
+	}
+
 /* Container */
 
 	.container {
@@ -312,6 +316,21 @@ input, select, textarea {
 				.container.medium {
 					width: 100%;
 				}
+			
+			#nav .container {
+				display: none;
+			}
+
+			#nav .show {
+				display: flex;
+				flex-direction: column;
+				background-color: var(--purple);
+				right: 0;
+				top: 40px;
+				position: absolute;
+				width: max-content;
+				padding: 5px;
+			}
 
 		}
 
@@ -2369,6 +2388,15 @@ input, select, textarea {
 				height: 44px;
 				line-height: 44px;
 			}
+
+				#nav .hamburger {
+					color: white;
+					width: min-content;
+					right: 25px;
+					position: absolute;
+					font-size: 1.5em;
+					display: block;
+				}
 
 				#nav a {
 					padding: 0 0.75em;
